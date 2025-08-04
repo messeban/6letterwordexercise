@@ -1,8 +1,6 @@
-﻿namespace _6letterwordexercise {
+﻿using _6letterwordexercise.Interfaces;
 
-  public interface IWordsImporter {
-    string[] ImportWords();
-  }
+namespace _6letterwordexercise {
   public class WordsImporter : IWordsImporter {
     private readonly string _filePath;
 

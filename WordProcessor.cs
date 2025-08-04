@@ -1,7 +1,6 @@
-﻿namespace _6letterwordexercise {
-  public interface IWordProcessor {
-    void Process();
-  }
+﻿using _6letterwordexercise.Interfaces;
+
+namespace _6letterwordexercise {
   public class WordProcessor : IWordProcessor {
     public readonly IWordsImporter _wordsImporter;
     public readonly IWordCombinator _wordCombinator;

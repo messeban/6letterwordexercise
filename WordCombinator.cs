@@ -1,7 +1,6 @@
-﻿namespace _6letterwordexercise {
-  public interface IWordCombinator {
-    string[] GetCombinations(string[] words);
-  }
+﻿using _6letterwordexercise.Interfaces;
+
+namespace _6letterwordexercise {
 
   public class WordCombinator : IWordCombinator {
 
